@@ -10,6 +10,7 @@ body {
 
 #mainPhoto {
   border-radius: 350px !important;
+  width: 250px;
 }
 
 h1,
@@ -79,6 +80,19 @@ section h2 {
     font-size: 3rem;
     line-height: 2.5rem;
   }
+}
+
+#gitLogo {
+  height: 50px;
+}
+
+#texas {
+  margin-top: -15px;
+  height: 100px;
+}
+
+#minDiv {
+  height: 100%;
 }
 
 .btn-xl {

@@ -82,7 +82,10 @@ section h2 {
   }
 }
 
-
+#resume {
+  text-decoration: underline;
+  color: inherit;
+}
 
 #gitLogo {
   height: 50px;

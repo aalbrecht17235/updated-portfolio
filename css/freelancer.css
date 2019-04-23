@@ -82,6 +82,10 @@ section h2 {
   }
 }
 
+.techs {
+  font-size: 18px;
+}
+
 #resume {
   text-decoration: underline;
   color: inherit;

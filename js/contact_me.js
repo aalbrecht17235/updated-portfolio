@@ -5,7 +5,7 @@ $(function() {
     submitError: function($form, event, errors) {
       // additional error messages or events
     },
-    submitSuccess: function($form, event) {
+    submitSuccess: function(form) {
       event.preventDefault(); // prevent default submit behaviour
       // get values from FORM
       var name = $("input#name").val();
@@ -30,7 +30,7 @@ $(function() {
         },*/
       
       
-      $.post($form.attr("action"), $form.serialize()).then(function () {
+      $.post($(form).attr("action"), $(form).serialize()).then(function () {
                     console.log("Thank you!");
                      $('#success').html("<div class='alert alert-success'>");
                       $('#success > .alert-success').html("<button type='button' class='close' data-dismiss='alert' aria-hidden='true'>&times;")

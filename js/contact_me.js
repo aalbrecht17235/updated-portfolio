@@ -30,7 +30,7 @@ $(function() {
         },*/
       
       
-      $.post($(form).attr("action"), $(form).serialize()).then(function () {
+      $.post($form.attr("action"), $form.serialize()).then(function () {
                     console.log("Thank you!");
                      $('#success').html("<div class='alert alert-success'>");
                       $('#success > .alert-success').html("<button type='button' class='close' data-dismiss='alert' aria-hidden='true'>&times;")
